@@ -34,6 +34,19 @@ ul {
   background-size: cover;
 }
 
+.navbar__menu li {
+  list-style: none;
+}
+
+.navbar__menu li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  background: tomato;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+
 .pizza-container__header {
   display: flex;
   flex-direction: column;
