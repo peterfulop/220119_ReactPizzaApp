@@ -10,146 +10,180 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/style.css" />
     <title>React Pizza</title>
   </head>
   <body>
-
-        <div class="container" id="app-container">
-
-            <div class="pizza-container">
-
-                <div class="pizza-container__header">
-                    <h2>React Pizza</h2>
-                </div>
-
-                <div class="navbar m-4">
-                    <ul class="navbar__menu d-flex w-100 justify-content-between ">
-                        <li><a href="#">Kezdőlap</a></li>
-                        <li><a href="#">Kedvencek</a></li>
-                        <li><a href="#">Kalkulátor</a></li>
-                        <li><a href="#">Feltétek</a></li>
-                        <li><a href="#">Receptek</a></li>
-                        <li><a href="#">Kapcsolat</a></li>
-                    </ul>
-                </div>
-
-
-                <div class="pizza-list">
-                    <div class="pizza-list__element d-flex justify-content-between m-4 p-1">
-                        <div class="pizza-list__element__first">
-                            <h3 class="pizza-list__element-name">Pomodoro</h3>
-                            <p class="pizza-list__element-sauce">Paradicsomos alap</p>
-                            <ul class="pizza-list__element__list d-md-block d-md-flex flex-wrap">
-                                <li>paradicsom</li>
-                                <li>sonka</li>
-                                <li>mozzarella</li>
-                                <li>parmezán</li>
-                                <li>parmezán</li>
-                                <li>parmezán</li>
-                                <li>parmezán</li>
-                            </ul>
-                        </div>
-                        <div class="pizza-list__element__last d-md-flex d-block text-center">
-                            <div class="orderbox">
-                                <div class="pricebox d-flex justify-content-center">1290 Ft</div>
-                            </div>
-                            <img class="pizza-icon" src="./src/images/pizza.png" alt="pizza logo">
-                        </div>
-                    </div>
-
-                    <div class="pizza-list__element d-flex justify-content-between m-4 p-1">
-                        <div class="pizza-list__element__first">
-                            <h3 class="pizza-list__element-name">Pomodoro</h3>
-                            <p class="pizza-list__element-sauce">Paradicsomos alap</p>
-                            <ul class="pizza-list__element__list d-md-block d-md-flex flex-wrap">
-                                <li>paradicsom</li>
-                                <li>sonka</li>
-                                <li>mozzarella</li>
-                                <li>parmezán</li>
-                            </ul>
-                        </div>
-                        <div class="pizza-list__element__last d-md-flex d-block text-center">
-                            <div class="orderbox">
-                                <div class="pricebox d-flex justify-content-center">1290 Ft</div>
-                            </div>
-                            <img class="pizza-icon" src="./src/images/pizza.png" alt="pizza logo">
-                        </div>
-                    </div>
-
-                    <div class="pizza-list__element d-flex justify-content-between m-4 p-1">
-                        <div class="pizza-list__element__first">
-                            <h3 class="pizza-list__element-name">Pomodoro</h3>
-                            <p class="pizza-list__element-sauce">Paradicsomos alap</p>
-                            <ul class="pizza-list__element__list d-md-block d-md-flex flex-wrap">
-                                <li>paradicsom</li>
-                                <li>sonka</li>
-                                <li>mozzarella</li>
-                                <li>parmezán</li>
-                            </ul>
-                        </div>
-                        <div class="pizza-list__element__last d-md-flex d-block text-center">
-                            <div class="orderbox">
-                                <div class="pricebox d-flex justify-content-center">1290 Ft</div>
-                            </div>
-                            <img class="pizza-icon" src="./src/images/pizza.png" alt="pizza logo">
-                        </div>
-                    </div>
-
-                    <div class="pizza-list__element d-flex justify-content-between m-4 p-1" >
-                        <div class="pizza-list__element__first">
-                            <h3 class="pizza-list__element-name">Pomodoro</h3>
-                            <p class="pizza-list__element-sauce">Paradicsomos alap</p>
-                            <ul class="pizza-list__element__list d-md-block d-md-flex flex-wrap">
-                                <li>paradicsom</li>
-                                <li>sonka</li>
-                                <li>sonka</li>
-                                <li>mozzarella</li>
-                                <li>kukorica</li>
-                                <li>parmezán</li>
-                                <li>gomba</li>
-                            </ul>
-                        </div>
-                        <div class="pizza-list__element__last d-md-flex d-block text-center">
-                            <div class="orderbox ">
-                                <div class="pricebox d-flex justify-content-center">1290 Ft</div>
-                            </div>
-                            <img class="pizza-icon" src="./src/images/pizza.png" alt="pizza logo">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="navigation m-4">
-                    <nav>
-                        <ul class="pagination justify-content-end">
-                          <li class="page-item disabled">
-                            <a class="page-link">Previous</a>
-                          </li>
-                          <li class="page-item"><a class="page-link" href="#">1</a></li>
-                          <li class="page-item"><a class="page-link" href="#">2</a></li>
-                          <li class="page-item"><a class="page-link" href="#">3</a></li>
-                          <li class="page-item">
-                            <a class="page-link" href="#">Next</a>
-                          </li>
-                        </ul>
-                      </nav>
-                </div>
-
-            </div>
-
-            
-
+    <div class="container" id="app-container">
+      <div class="pizza-container">
+        <div class="pizza-container__header">
+          <h2>React Pizza</h2>
         </div>
-    </div>
+        <div class="d-none navbar m-4">
+          <ul class="navbar__menu d-flex w-100 justify-content-between">
+            <li><a href="#">Kezdőlap</a></li>
+            <li><a href="#">Kedvencek</a></li>
+            <li><a href="#">Kalkulátor</a></li>
+            <li><a href="#">Feltétek</a></li>
+            <li><a href="#">Receptek</a></li>
+            <li><a href="#">Kapcsolat</a></li>
+          </ul>
+        </div>
 
+        <div class="pizza-list">
+          <div
+            class="pizza-list__element d-flex justify-content-between m-4 p-1"
+          >
+            <div class="pizza-list__element__first">
+              <h3 class="pizza-list__element-name">Pomodoro</h3>
+              <p class="pizza-list__element-sauce">Paradicsomos alap</p>
+              <ul
+                class="pizza-list__element__list d-md-block d-md-flex flex-wrap"
+              >
+                <li>paradicsom</li>
+                <li>sonka</li>
+                <li>mozzarella</li>
+                <li>parmezán</li>
+                <li>parmezán</li>
+                <li>parmezán</li>
+                <li>parmezán</li>
+              </ul>
+            </div>
+            <div
+              class="pizza-list__element__last d-md-flex d-block text-center"
+            >
+              <div class="orderbox">
+                <div class="pricebox d-flex justify-content-center">
+                  1290 Ft
+                </div>
+              </div>
+              <img
+                class="pizza-icon"
+                src="./src/images/pizza.png"
+                alt="pizza logo"
+              />
+            </div>
+          </div>
+
+          <div
+            class="pizza-list__element d-flex justify-content-between m-4 p-1"
+          >
+            <div class="pizza-list__element__first">
+              <h3 class="pizza-list__element-name">Pomodoro</h3>
+              <p class="pizza-list__element-sauce">Paradicsomos alap</p>
+              <ul
+                class="pizza-list__element__list d-md-block d-md-flex flex-wrap"
+              >
+                <li>paradicsom</li>
+                <li>sonka</li>
+                <li>mozzarella</li>
+                <li>parmezán</li>
+              </ul>
+            </div>
+            <div
+              class="pizza-list__element__last d-md-flex d-block text-center"
+            >
+              <div class="orderbox">
+                <div class="pricebox d-flex justify-content-center">
+                  1290 Ft
+                </div>
+              </div>
+              <img
+                class="pizza-icon"
+                src="./src/images/pizza.png"
+                alt="pizza logo"
+              />
+            </div>
+          </div>
+
+          <div
+            class="pizza-list__element d-flex justify-content-between m-4 p-1"
+          >
+            <div class="pizza-list__element__first">
+              <h3 class="pizza-list__element-name">Pomodoro</h3>
+              <p class="pizza-list__element-sauce">Paradicsomos alap</p>
+              <ul
+                class="pizza-list__element__list d-md-block d-md-flex flex-wrap"
+              >
+                <li>paradicsom</li>
+                <li>sonka</li>
+                <li>mozzarella</li>
+                <li>parmezán</li>
+              </ul>
+            </div>
+            <div
+              class="pizza-list__element__last d-md-flex d-block text-center"
+            >
+              <div class="orderbox">
+                <div class="pricebox d-flex justify-content-center">
+                  1290 Ft
+                </div>
+              </div>
+              <img
+                class="pizza-icon"
+                src="./src/images/pizza.png"
+                alt="pizza logo"
+              />
+            </div>
+          </div>
+
+          <div
+            class="pizza-list__element d-flex justify-content-between m-4 p-1"
+          >
+            <div class="pizza-list__element__first">
+              <h3 class="pizza-list__element-name">Pomodoro</h3>
+              <p class="pizza-list__element-sauce">Paradicsomos alap</p>
+              <ul
+                class="pizza-list__element__list d-md-block d-md-flex flex-wrap"
+              >
+                <li>paradicsom</li>
+                <li>sonka</li>
+                <li>sonka</li>
+                <li>mozzarella</li>
+                <li>kukorica</li>
+                <li>parmezán</li>
+                <li>gomba</li>
+              </ul>
+            </div>
+            <div
+              class="pizza-list__element__last d-md-flex d-block text-center"
+            >
+              <div class="orderbox">
+                <div class="pricebox d-flex justify-content-center">
+                  1290 Ft
+                </div>
+              </div>
+              <img
+                class="pizza-icon"
+                src="./src/images/pizza.png"
+                alt="pizza logo"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="navigation m-4">
+          <nav>
+            <ul class="pagination justify-content-end">
+              <li class="page-item disabled">
+                <a class="page-link">Previous</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
     <script src="https://unpkg.com/react@16.7.0/umd/react.development.js"></script>
     <script src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.development.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>
-
-
-
 
 <!-- <div class="pizza-list__element d-flex flex-wrap justify-content-between">
     <div class="pizza-list__element__first">

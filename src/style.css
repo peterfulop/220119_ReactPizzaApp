@@ -23,7 +23,7 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 2rem;
+  margin: 2rem 0;
 }
 
 .pizza-container {
@@ -41,10 +41,16 @@ ul {
 .navbar__menu li a {
   text-decoration: none;
   text-transform: uppercase;
-  color: white;
-  background: tomato;
+  color: black;
+  background: lightgray;
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
+}
+
+.navbar__menu li a:hover {
+  cursor: pointer;
+  background: tomato;
+  color: white;
 }
 
 .pizza-container__header {
@@ -79,6 +85,7 @@ ul {
 .pizza-list__element-name {
   color: #f39200;
   font-family: "Mochiy Pop P One", sans-serif;
+  margin-top: 1rem;
 }
 .pizza-list__element-sauce {
   color: #e4d9c8;
