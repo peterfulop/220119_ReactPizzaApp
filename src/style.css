@@ -75,22 +75,24 @@ ul {
 .pizza-list__element {
   background-color: #444343ef;
   padding-left: 10px;
-  border-radius: 0.25rem;
+  border-radius: 1rem;
 }
 .pizza-list__element:hover {
   cursor: pointer;
   background-color: #505050ed;
 }
 
-.pizza-list__element-name {
+.chili-rate {
+  width: 40px;
+  margin: 0 1rem;
+}
+
+.pizza-list__element-heading {
   color: #f39200;
   font-family: "Mochiy Pop P One", sans-serif;
-  margin-top: 1rem;
 }
-.pizza-list__element-sauce {
-  color: #e4d9c8;
-  font-family: "Roboto", sans-serif;
-  margin: 0.5rem 0;
+.sauce-icon {
+  width: 30px;
 }
 
 .pizza-list__element__first {
@@ -102,17 +104,16 @@ ul {
   padding-left: 1rem;
 }
 
-.pizza-list__element__first ul {
+.pizza-list__element__toppings {
   display: flex;
   padding-left: 0;
   margin: 0.5rem 0;
 }
-.pizza-list__element__first li {
+.pizza-list__element__toppings li {
   font-family: "Quicksand", sans-serif;
   display: flex;
   align-items: center;
   list-style: none;
-  margin: 0.25rem;
   background-color: #2f2f2f;
   color: white;
   font-size: 15px;
@@ -184,9 +185,4 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type="number"] {
   -moz-appearance: textfield;
-}
-
-.navigation a {
-  color: black;
-  border-color: gray;
 }
